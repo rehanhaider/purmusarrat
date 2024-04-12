@@ -1,0 +1,6 @@
+# These are dev requirements for the project used to convert requirements.in to requirements.txt for upload to lambda
+pip-tools
+# Project specific requirements
+black
+pylint
+aws-cdk-lib
