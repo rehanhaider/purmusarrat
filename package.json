@@ -5,7 +5,8 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "prep": "./lambda_deps.sh && ./prep_env.sh"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
