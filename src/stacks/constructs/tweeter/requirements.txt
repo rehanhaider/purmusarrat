@@ -1,3 +1,5 @@
 boto3
 aws-lambda-powertools
 aws-lambda-powertools[tracer]
+tweepy
+requests
