@@ -14,7 +14,8 @@ const data = new DataStack(app, "PM-Data", {
 
 const scheduler = new SchedulerStack(app, "PM-Scheduler", {
   SCHEDULE_HOURS: AppDefaults.SCHEDULE_HOURS,
-  QUEUE_ARN: data.queueArn,
+  SQS_QUEUE_ARN: data.queueArn,
+  MEDIA_BUCKET: AppDefaults.MEDIA_BUCKET,
 });
 
 Tags.of(data).add("app", "purmusarrat");
