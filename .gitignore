@@ -8,4 +8,4 @@ node_modules
 cdk.out
 
 .env
-layer_python
+layer

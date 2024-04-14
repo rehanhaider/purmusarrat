@@ -19,12 +19,12 @@ activate_python_virtual_env() {
 create_layer() {
     # Create a lambda layer
     activate_python_virtual_env
-    rm -rf layer_python
+    rm -rf layer/python/*
     echo "Creating lambda layer"
     find src -name "requirements.txt" -type f | while read -r file; do
         echo "Installing requirements.txt for: $file"
-        mkdir -p layer_python
-        python3.11 -m pip install -r $file -t layer_python
+        mkdir -p layer/python
+        python3.11 -m pip install -r $file -t layer/python
     done
     echo "Lambda layer created"
 }

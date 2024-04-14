@@ -14,7 +14,7 @@ export class DataStack extends Stack {
         super(scope, id, props);
 
         const queue = new sqs.Queue(this, 'Queue', {
-            visibilityTimeout: Duration.seconds(300),
+            visibilityTimeout: Duration.seconds(120),
         });
 
         this.queueArn = queue.queueArn;

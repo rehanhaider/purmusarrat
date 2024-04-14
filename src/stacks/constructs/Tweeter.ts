@@ -4,7 +4,7 @@ import { aws_lambda as lambda, aws_logs as logs } from "aws-cdk-lib";
 import { join } from "path";
 
 export interface TweeterProps extends StackProps {
-    SQS_QUEUE_ARN: string;
+    SQS_QUEUE_NAME: string;
 }
 
 export class Tweeter extends Construct {
@@ -13,7 +13,8 @@ export class Tweeter extends Construct {
         super(scope, id);
 
         const LayerPython = new lambda.LayerVersion(this, 'PurmusarratLayer', {
-            code: lambda.Code.fromAsset(join(process.cwd(), 'layer_python')),
+            code: lambda.Code.fromAsset(join(process.cwd(), 'layer')),
+            compatibleRuntimes: [lambda.Runtime.PYTHON_3_11],
             removalPolicy: RemovalPolicy.DESTROY,
         });
 
@@ -23,7 +24,7 @@ export class Tweeter extends Construct {
             code: lambda.Code.fromAsset(join(__dirname, 'tweeter')),
             layers: [LayerPython],
             environment: {
-                TWEET: props.SQS_QUEUE_ARN,
+                SQS_QUEUE_NAME: props.SQS_QUEUE_NAME,
             },
             timeout: Duration.seconds(120),
             logRetention: logs.RetentionDays.ONE_DAY,

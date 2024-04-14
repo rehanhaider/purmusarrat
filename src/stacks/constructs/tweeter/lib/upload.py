@@ -36,7 +36,7 @@ api = tweepy.API(auth, wait_on_rate_limit=True)
 
 def get_text_from_name(name: str) -> str:
     """
-    Get text from name of the media file. The name is expected to be in the format "text-timestamp.mp4"
+    Get text from name of the media file. The name is expected to be in the format "/tmp/text-timestamp.mp4"
     Remove the timestamp and replace "-" with " "
 
     Args:
@@ -45,6 +45,9 @@ def get_text_from_name(name: str) -> str:
     Returns:
     str: Text
     """
+
+    # Remove the path from the name
+    name = name.split("/")[-1]
 
     # Split the filename on the period to remove the extension
     name_without_extension = name.split(".")[0]
