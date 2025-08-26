@@ -1,0 +1,438 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="96px"
+    height="96px"
+    x="0"
+    y="0"
+    viewBox="0 0 682.667 682.667"
+    style="enable-background: new 0 0 512 512"
+    xml:space="preserve"
+>
+    <g>
+        <defs>
+            <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                <path d="M0 512h512V0H0Z" fill="#6bb187" opacity="1" data-original="#6bb187"></path>
+            </clipPath>
+        </defs>
+        <g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)">
+            <path
+                d="M0 0v77.75"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(225.875 434.25)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0v77.75"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(286.125 434.25)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0v77.75"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(225.875)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0v77.75"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(286.125)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0h75.25"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(436.75 256)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0h75.25"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(0 256)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0h99.437"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(0 346.375)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0h99.437"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(0 165.625)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0h99.437"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(412.563 346.375)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0h99.437"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(412.563 165.625)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0c0-16.638-13.487-30.125-30.125-30.125C-46.763-30.125-60.25-16.638-60.25 0c0 16.638 13.487 30.125 30.125 30.125C-13.487 30.125 0 16.638 0 0ZM0 0h60.25l30.81-53.916"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(75.25 466.875)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0c0-16.638 13.487-30.125 30.125-30.125C46.763-30.125 60.25-16.638 60.25 0c0 16.638-13.487 30.125-30.125 30.125C13.487 30.125 0 16.638 0 0ZM0 0h-60.25l-30.81-53.916"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(436.75 466.875)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0c0 16.638-13.487 30.125-30.125 30.125C-46.763 30.125-60.25 16.638-60.25 0c0-16.638 13.487-30.125 30.125-30.125C-13.487-30.125 0-16.638 0 0ZM0 0h60.25l30.81 53.916"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(75.25 45.125)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0c0 16.638 13.487 30.125 30.125 30.125C46.763 30.125 60.25 16.638 60.25 0c0-16.638-13.487-30.125-30.125-30.125C13.487-30.125 0-16.638 0 0ZM0 0h-60.25l-30.81 53.916"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(436.75 45.125)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0v105.486h30.1c16.651 0 30.15-13.498 30.15-30.15 0-16.651-13.499-30.149-30.15-30.149H0"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(256 195.757)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0v75.361c0 16.638 13.487 30.125 30.125 30.125 16.638 0 30.125-13.487 30.125-30.125V-.007"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(141.5 195.757)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0v-120.5"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(365.86 316.25)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0h-60.25"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(201.75 240.943)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+            <path
+                d="M0 0c0-99.825-80.925-180.75-180.75-180.75S-361.5-99.825-361.5 0s80.925 180.75 180.75 180.75S0 99.825 0 0Z"
+                style="
+                    stroke-width: 30;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    stroke-dasharray: none;
+                    stroke-opacity: 1;
+                "
+                transform="translate(436.75 256)"
+                fill="none"
+                stroke="#6bb187"
+                stroke-width="30"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-opacity=""
+                data-original="#6bb187"
+                class=""
+            ></path>
+        </g>
+    </g>
+</svg>

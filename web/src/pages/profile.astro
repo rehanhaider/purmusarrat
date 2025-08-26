@@ -1,0 +1,16 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import UserMenu from "@lib/components/UserMenu.astro";
+import ProfileForm from "@lib/components/Profile.tsx";
+---
+
+<Layout title="Profile">
+    <div class="flex">
+        <UserMenu />
+        <ProfileForm client:only="react" />
+    </div>
+</Layout>
+<script>
+    import { redirectIfUnauthenticated } from "@lib/hooks/actions";
+    redirectIfUnauthenticated("/profile");
+</script>

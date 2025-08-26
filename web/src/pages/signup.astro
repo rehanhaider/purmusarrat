@@ -1,0 +1,13 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import SignupForm from "@lib/components/Signup";
+---
+
+<Layout title="Signup">
+    <SignupForm client:only="react" />
+</Layout>
+<style>
+    .grecaptcha-badge {
+        display: block;
+    }
+</style>

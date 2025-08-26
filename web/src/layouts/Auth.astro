@@ -1,0 +1,17 @@
+---
+import Layout from "./Layout.astro";
+import Navbar from "@/components/Navbar.astro";
+import Footer from "@/components/Footer.astro";
+
+const { projectName } = Astro.props;
+---
+
+<Layout>
+    <header class="shadow-2xl">
+        <Navbar projectName={projectName} />
+    </header>
+    <main class="flex-grow">
+        <slot />
+    </main>
+    <Footer projectName={projectName} />
+</Layout>

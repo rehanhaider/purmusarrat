@@ -1,0 +1,27 @@
+---
+import Layout from "@/layouts/Layout.astro";
+---
+
+<Layout title="Logging out...">
+    <div class="flex flex-grow">
+        <p class="m-auto text-2xl font-bold">Logging out...</p>
+    </div>
+</Layout>
+
+<script>
+    import { AuthService } from "../../lib/auth/auth";
+
+    const logout = async () => {
+        try {
+            await AuthService.logout();
+            console.log("Logout successful");
+        } catch (error) {
+            console.error("Logout failed:", error);
+        } finally {
+            window.location.href = "/";
+        }
+    };
+
+    // Execute logout when the page loads
+    document.addEventListener("DOMContentLoaded", logout);
+</script>

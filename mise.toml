@@ -1,0 +1,6 @@
+[tools]
+python = "3.12"
+
+
+[env]
+_.file = ['.env.web.local', '.env.cdk.local']

@@ -1,0 +1,15 @@
+---
+const pathname = Astro.url.pathname;
+---
+
+<!-- Left sidebar -->
+<aside id="left-sidebar" class="drawer lg:drawer-open hidden lg:block w-full lg:w-72 xl:w-1/4 2xl:w-1/5 overflow-y-auto p-4 bg-base-200 lg:flex-shrink-0">
+    <ul class="menu p-2 w-auto bg-base-100 rounded-box">
+        <li>
+            <a href="/profile" class={`${pathname === "/profile" ? "btn-ghost btn-active" : ""}`}>Profile</a>
+        </li>
+        <li>
+            <a href="/settings" class={`${pathname === "/settings" ? "btn-ghost btn-active" : ""}`}>Settings</a>
+        </li>
+    </ul>
+</aside>

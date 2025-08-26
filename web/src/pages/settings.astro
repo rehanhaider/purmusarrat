@@ -1,0 +1,16 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import UserMenu from "@lib/components/UserMenu.astro";
+import SettingsForm from "@lib/components/Settings";
+---
+
+<Layout title="Settings">
+    <div class="flex">
+        <UserMenu />
+        <SettingsForm client:only="react" />
+    </div>
+</Layout>
+<script>
+    import { redirectIfUnauthenticated } from "@lib/hooks/actions";
+    redirectIfUnauthenticated("/settings");
+</script>

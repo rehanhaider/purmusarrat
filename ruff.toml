@@ -1,0 +1,115 @@
+exclude = [".env", ".layers"]
+
+line-length = 140
+
+[lint]
+select = [
+    "F", 
+    "UP", 
+    "B", 
+    "I", 
+    "W", 
+    "N", 
+    "YTT", 
+    "ANN", 
+    "ASYNC", 
+    "S", 
+    "BLE", 
+    "FBT", 
+    "A", 
+    "COM", 
+    "C4", 
+    "DTZ", 
+    "T10", 
+    "EM",
+    
+    #flake8-implicit-str-concat (ISC)
+    "ISC",
+
+    #flake8-import-conventions (ICN)
+    "ICN",
+
+    #flake8-logging (LOG)
+    "LOG",
+
+    #flake8-logging-format (G)
+    "G",
+
+    #flake8-pie (PIE)
+    "PIE",
+
+    #flake8-print (T20)
+    #"T20",
+
+    #flake8-pyi (PYI)
+    "PYI",
+
+    #flake8-pytest-style (PT)
+    "PT",
+
+    #flake8-quotes (Q)"
+    "Q",
+
+    #flake8-raise (RSE)
+    "RSE",
+
+    #flake8-self (SLF)
+    "SLF",
+
+    #flake8-slots (SLOT)
+    "SLOT",
+
+    #flake8-simplify (SIM)
+    "SIM",
+
+    #flake8-tidy-imports (TID)
+    "TID",
+
+    #flake8-type-checking (TC)
+    "TC",
+
+    #flake8-gettext (INT),
+    "INT",
+
+    #flake8-unused-arguments (ARG),
+    "ARG",
+
+    #flake8-use-pathlib (PTH)
+    "PTH",
+
+    #flake8-todos (TD)
+    #"TD",
+
+    #flake8-fixme (FIX)
+    "FIX",
+
+    #eradicate (ERA)
+    "ERA",
+
+    #pygrep-hooks (PGH)
+    "PGH",
+
+    #Pylint (PL),
+    "PL",
+
+    #Convention (C),
+    "C",
+
+    #Error (E)
+    "E",
+
+    #Refactor (R)
+    "R",
+
+    #Warning (W)
+    "W",
+
+    #flynt (FLY),
+    "FLY",
+
+    #Ruff-specific rules (RUF)
+    "RUF"
+
+    ]
+
+ignore = ["G004", "EM102", "RET504", "ERA001"]

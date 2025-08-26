@@ -1,0 +1,60 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="96px"
+    height="96px"
+    x="0"
+    y="0"
+    viewBox="0 0 512 512"
+    style="enable-background: new 0 0 512 512"
+    xml:space="preserve"
+>
+    <g>
+        <circle
+            cx="256"
+            cy="256"
+            r="241"
+            style="stroke-width: 30; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10"
+            fill="none"
+            stroke="#6bb187"
+            stroke-width="30"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-miterlimit="10"
+            data-original="#6bb187"
+        ></circle>
+        <circle
+            cx="256"
+            cy="256"
+            r="121"
+            style="stroke-width: 30; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10"
+            fill="none"
+            stroke="#6bb187"
+            stroke-width="30"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-miterlimit="10"
+            data-original="#6bb187"
+        ></circle>
+        <path
+            d="M306.905 218.905 244.599 286l-32.409-34.286"
+            style="stroke-width: 30; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10"
+            fill="none"
+            stroke="#6bb187"
+            stroke-width="30"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-miterlimit="10"
+            data-original="#6bb187"
+        ></path>
+        <path
+            d="M211.883 80.681h0M298.532 79.979h0M375.468 119.936h0M424.941 190.938h0M435.702 277.213h0M405.255 358.574h0M340.489 416.021h0M256.438 437.018h0M172.66 416.447h0M106.851 360h0M77.01 278.571h0M87.468 192.787h0M135 120.277h0"
+            style="stroke-width: 30; stroke-linecap: round; stroke-linejoin: round"
+            fill="none"
+            stroke="#6bb187"
+            stroke-width="30"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            data-original="#6bb187"
+        ></path>
+    </g>
+</svg>

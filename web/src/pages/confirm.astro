@@ -1,0 +1,61 @@
+---
+import Page from "@/layouts/Page.astro";
+
+const title = "Confirming your email...";
+---
+
+<Page frontmatter={{ title }}>
+    <div class="container max-w-3xl mx-auto p-4 flex flex-col gap-2">
+        <h1 class="text-2xl font-bold mt-8">Confirming your email...</h1>
+        <div class="space-y-2">
+            <p id="confirm-started" class="text-base-content/70">Confirming your email...</p>
+            <p id="confirm-success" class="text-base-content/70 hidden">Your email has been confirmed!</p>
+            <p id="confirm-error" class="text-base-content/70 hidden">
+                There was an error confirming your email. Please try again.<br />
+                <br />
+                If the issue persists, please contact us through the
+                <a href="/contact" class="text-primary underline">contact page</a>.
+            </p>
+            <p id="confirm-message" class="text-base-content/70 hidden">
+                We'll be sending you updates and reminders as we get closer to the bootcamp.
+            </p>
+        </div>
+    </div>
+</Page>
+
+<script>
+    import { ApiService } from "@lib/api";
+
+    const init = async () => {
+        // Get the email and hash from the URL
+        const url = new URL(window.location.href);
+        const email = url.searchParams.get("email");
+        const hash = url.searchParams.get("hash");
+
+        const confirmStarted = document.getElementById("confirm-started");
+        const confirmSuccess = document.getElementById("confirm-success");
+        const confirmError = document.getElementById("confirm-error");
+        const confirmMessage = document.getElementById("confirm-message");
+
+        try {
+            const response = await ApiService.get(`/waitlist?email=${email}&hash=${hash}`);
+
+            if (response.message === "Successfully confirmed email") {
+                confirmStarted?.classList.add("hidden");
+                confirmSuccess?.classList.remove("hidden");
+                confirmMessage?.classList.remove("hidden");
+                // Redirect to the home page
+                window.location.href = "/welcome";
+            } else {
+                confirmStarted?.classList.add("hidden");
+                confirmError?.classList.remove("hidden");
+            }
+        } catch (error) {
+            confirmStarted?.classList.add("hidden");
+            confirmError?.classList.remove("hidden");
+        }
+    };
+
+    // Initialize the confirmation process
+    init();
+</script>

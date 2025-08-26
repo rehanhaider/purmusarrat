@@ -1,0 +1,25 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "black-formatter.args": [
+        "--line-length",
+        "140",
+        "--skip-string-normalization" // Without this config - the single quotes will be replaced with double quotes in response which will results in headers being rejected
+    ],
+    "prettier.documentSelectors": ["**/*.astro", "**/*.svg"],
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[astro]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.analysis.extraPaths": ["aws/src"],
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}/aws/src"
+    }
+}

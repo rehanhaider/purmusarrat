@@ -1,0 +1,24 @@
+---
+import MainLogo from "@/assets/icons/MainLogo";
+import { NavbarEnd } from "@/components/NavbarEnd";
+import * as config from "@root/config.json";
+
+const { projectName = config.PROJECT_NAME } = Astro.props;
+---
+
+<nav class="navbar shadow-2xl mx-auto items-center">
+    <div class="navbar-start">
+        <a href="/" class="btn btn-ghost text-base items-center">
+            <MainLogo height={40} width={40} />
+            <span>{projectName}</span>
+        </a>
+    </div>
+    <div class="navbar-center hidden lg:flex"></div>
+    <div class="navbar-end">
+        <div class="flex items-center">
+            <div class="w-32">
+                <NavbarEnd client:only="react" />
+            </div>
+        </div>
+    </div>
+</nav>
